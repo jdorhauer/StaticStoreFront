@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9cbedf;
+    
+}
+
+#wrapper{
+    background-image: url("Assets/HeadingImage.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+}
+
+header{
+    padding: 2.5em 0 0.5em;
+	margin: 0 0 2.0em;
+}
+
+header h1{
+    display: inline-block;
+    padding: 1em;
+
+}
+
+#utilities{
+    float: right;
+}
+
+header nav{
+    display: inline-block;
+    padding: 1em;
+}
+
+header nav #buttons {
+    padding: .5em .5em;
+    margin: .25em;
+    background-color: #06223d;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+
+header nav img{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 35em;
+    padding: .25em .25em;
+    margin: .3em .25em -.6em .25em;
+    position: relative;
+    text-decoration: none;
+}
+
+div{
+    margin: 3em .75em .75em 2em;
+    text-align: center;
+}
+
+div h2{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+article{
+    overflow: hidden;
+}
+#products{
+    float: right;
+}
+
+#information{
+    float: left;
+}
+
+#description{
+    width: 18em;
+    height: 17.7em;
+    margin: 2em 2em 2em 8em;
+    padding: 1em 1em 1em 1em;
+    border: solid;
+    border-width: .045em;
+    border-color: black;
+    border-radius: 55px;
+    background-color: #bfdbe0;
+}
+
+#news{
+    width: 18em;
+    height: 17.7em;
+    margin: 2em 2em 2em 8em;
+    padding: 1em 1em 1em 1em;
+    border: solid;
+    border-width: .045em;
+    border-color: black;
+    border-radius: 55px;
+    background-color: #bfdbe0;
+}
+
+#gear{
+    width: 38em;
+    height: 17.7em;
+    margin: 2em 8em 0 0;
+    padding: 1em 1em 1em 1em;
+    border: solid;
+    border-width: .045em;
+    border-color: black;
+    border-radius: 55px;
+    background-color: #bfdbe0;
+    display: flex;
+}
+
+#player{
+    flex: 1;
+}
+
+#goalie{
+    flex: 1;
+}
+
+#training{
+    width: 38em;
+    height: 17.7em;
+    margin: 2em 8em 2.5em 0;
+    padding: 1em 1em 1em 1em;
+    border: solid;
+    border-width: .045em;
+    border-color: black;
+    border-radius: 55px;
+    background-color: #bfdbe0;
+    display: flex;
+}
+
+#aids{
+    flex: 1;
+}
+
+#essentials{
+    flex: 1;
+}
+
+footer{
+    text-align: center;
+    bottom: 0;
+    height: 3em;
+    width: 100%;
+    margin: 0;
+    background-color: #2d64bc;
+    padding-top: 1.5em;
+}
+
+footer a{
+    padding: 0 .5em 0 .5em;
+    text-decoration: none;
+    color: white;
+}
